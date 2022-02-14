@@ -1,0 +1,14 @@
+# sum of digits in a given number
+
+n=int(input("Enter a number:"))
+total=0
+while(n>0):
+    dig=n%10
+    total=total+dig
+    n=n//10
+print("The sum of digits is:",total)
+
+
+OUTPUT:
+Enter a number: 243
+The sum of digits is:8
